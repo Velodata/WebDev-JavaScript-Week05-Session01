@@ -166,9 +166,10 @@ As we progress through tonight’s session, this repository will contain:
 
 ```
 📁 /lesson-files
-  ├── example1.json
-  ├── example2.js
-  └── challenge.json
+  ├── data.json  (where applicable)
+  ├── script.js
+  ├── style.css
+  └── index.html
 
 📁 /challenges
   └── mini-todo-app.js
@@ -199,11 +200,11 @@ We’ll take a look at examples together and you’ll get hands-on practice with
 
 ---
 
-👨‍🎓 **Your Instructor:** [Your Name]  
+👨‍🎓 **Your Instructor:** Super Duper Ivy  
 💬 **Need help?** Ask during the live session or open an issue in this repo!  
 🌟 **Goal for Tonight:** Be able to confidently read and write JSON in your own JavaScript apps.
 
 ---
 
-Happy coding, and enjoy the session! 🚀
+Happy coding, and enjoy the lessons! 🚀
 
