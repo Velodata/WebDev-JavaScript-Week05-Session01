@@ -1,0 +1,14 @@
+body {
+	font-family: sans-serif;
+	background-color: #fefefe;
+	padding: 2rem;
+	color: #333;
+}
+
+#json-output {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 1rem;
+	border-radius: 5px;
+	margin-top: 1rem;
+}
