@@ -9,14 +9,14 @@ fetch("data.json")
         return response.json();
     })
     .then(data => {
-        // 2. Display the data on the page
-        const output = document.getElementById("json-output");
-        let html = "<ul>";
-        data.forEach(item => {
-            html += `<li>${item.firstName} (${item.age} years old)</li>`;
-        });
-        html += "</ul>";
-        output.innerHTML = html;
+        // 2. insert missing-javascript here
+
+        
+
+
+
+
+        
     })
     .catch(error => {
         console.error("There was a problem with the fetch operation:", error);

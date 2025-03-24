@@ -13,12 +13,13 @@ const users = JSON.parse(jsonString);
 // 3. Select the output element
 const output = document.getElementById("json-output");
 
-// 4. Build HTML content using the parsed array
-let html = "<h2>User List</h2><ul>";
-users.forEach(user => {
-    html += `<li>${user.firstName} ${user.lastName} (Age: ${user.age})</li>`;
-});
-html += "</ul>";
+// 4. insert missing-javascript here
+
+
+
+
+
+
 
 // 5. Inject the HTML into the DOM
 output.innerHTML = html;

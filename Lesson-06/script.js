@@ -7,33 +7,34 @@ const form = document.getElementById("todo-form");
 const input = document.getElementById("todo-input");
 const list = document.getElementById("todo-list");
 
-// Function to display all TODOs
-function renderTodos() {
-    list.innerHTML = "";
-    todos.forEach((todo, index) => {
-        const li = document.createElement("li");
-        li.innerHTML = `
-      ${todo.text} - <em>${new Date(todo.createdAt).toLocaleString()}</em>
-      <button onclick="deleteTodo(${index})">Delete</button>
-    `;
-        list.appendChild(li);
-    });
-}
+// insert missing-javascript here, you need to add two functions
 
-// Add new TODO
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const newTodo = {
-        text: input.value.trim(),
-        createdAt: Date.now()
-    };
-    if (newTodo.text !== "") {
-        todos.push(newTodo);
-        localStorage.setItem("todos", JSON.stringify(todos));
-        input.value = "";
-        renderTodos();
-    }
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Delete TODO
 function deleteTodo(index) {

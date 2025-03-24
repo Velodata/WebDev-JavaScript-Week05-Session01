@@ -1,0 +1,570 @@
+{
+    "jsonapi": {
+        "version": "2.0"
+    },
+    "links": {
+        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/users\/1"
+    },
+    "data": {
+        "type": "users",
+        "id": "1",
+        "attributes": {
+            "name": "Admin",
+            "email": "admin@jsonapi.com",
+            "profile_image": "http:\/\/laravel-json-api-pro.creative-tim.com\/images\/admin.jpg",
+            "created_at": "2024-10-16 09:24:03",
+            "updated_at": "2024-10-16 09:24:03"
+        },
+        "relationships": {
+            "roles": {
+                "links": {
+                    "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/users\/1\/roles",
+                    "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/users\/1\/relationships\/roles"
+                },
+                "data": [
+                    {
+                        "type": "roles",
+                        "id": "1"
+                    }
+                ]
+            }
+        },
+        "links": {
+            "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/users\/1"
+        }
+    },
+    "included": [
+        {
+            "type": "roles",
+            "id": "1",
+            "attributes": {
+                "name": "admin",
+                "created_at": "2024-10-16 09:24:03",
+                "updated_at": "2024-10-16 09:24:03"
+            },
+            "relationships": {
+                "permissions": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/roles\/1\/permissions",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/roles\/1\/relationships\/permissions"
+                    },
+                    "data": [
+                        {
+                            "type": "permissions",
+                            "id": "1"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "2"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "3"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "4"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "5"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "6"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "7"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "8"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "9"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "10"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "11"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "12"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "13"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "14"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "15"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "16"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "17"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "18"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "19"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "20"
+                        },
+                        {
+                            "type": "permissions",
+                            "id": "21"
+                        }
+                    ]
+                },
+                "users": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/roles\/1\/users",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/roles\/1\/relationships\/users"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/roles\/1"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "1",
+            "attributes": {
+                "name": "view users",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/1\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/1\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/1"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "2",
+            "attributes": {
+                "name": "create users",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/2\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/2\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/2"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "3",
+            "attributes": {
+                "name": "edit users",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/3\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/3\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/3"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "4",
+            "attributes": {
+                "name": "delete users",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/4\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/4\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/4"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "5",
+            "attributes": {
+                "name": "view roles",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/5\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/5\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/5"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "6",
+            "attributes": {
+                "name": "create roles",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/6\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/6\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/6"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "7",
+            "attributes": {
+                "name": "edit roles",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/7\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/7\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/7"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "8",
+            "attributes": {
+                "name": "delete roles",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/8\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/8\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/8"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "9",
+            "attributes": {
+                "name": "view permissions",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/9\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/9\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/9"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "10",
+            "attributes": {
+                "name": "view categories",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/10\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/10\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/10"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "11",
+            "attributes": {
+                "name": "create categories",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/11\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/11\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/11"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "12",
+            "attributes": {
+                "name": "edit categories",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/12\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/12\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/12"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "13",
+            "attributes": {
+                "name": "delete categories",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/13\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/13\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/13"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "14",
+            "attributes": {
+                "name": "view tags",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/14\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/14\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/14"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "15",
+            "attributes": {
+                "name": "create tags",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/15\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/15\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/15"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "16",
+            "attributes": {
+                "name": "edit tags",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/16\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/16\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/16"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "17",
+            "attributes": {
+                "name": "delete tags",
+                "created_at": "2024-10-16 09:24:02",
+                "updated_at": "2024-10-16 09:24:02"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/17\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/17\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/17"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "18",
+            "attributes": {
+                "name": "view items",
+                "created_at": "2024-10-16 09:24:03",
+                "updated_at": "2024-10-16 09:24:03"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/18\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/18\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/18"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "19",
+            "attributes": {
+                "name": "create items",
+                "created_at": "2024-10-16 09:24:03",
+                "updated_at": "2024-10-16 09:24:03"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/19\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/19\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/19"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "20",
+            "attributes": {
+                "name": "edit items",
+                "created_at": "2024-10-16 09:24:03",
+                "updated_at": "2024-10-16 09:24:03"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/20\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/20\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/20"
+            }
+        },
+        {
+            "type": "permissions",
+            "id": "21",
+            "attributes": {
+                "name": "delete items",
+                "created_at": "2024-10-16 09:24:03",
+                "updated_at": "2024-10-16 09:24:03"
+            },
+            "relationships": {
+                "roles": {
+                    "links": {
+                        "related": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/21\/roles",
+                        "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/21\/relationships\/roles"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/laravel-json-api-pro.creative-tim.com\/api\/v2\/permissions\/21"
+            }
+        }
+    ]
+}
